@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Flexbox & Grid Layout</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Responsive Webpage</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Layout using CSS Grid -->
+  <main class="grid-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>Some sidebar content goes here. It demonstrates how grid allocates space.</p>
+    </aside>
+
+    <!-- Content Area -->
+    <section class="content">
+      <h2>Welcome</h2>
+      <p>This section demonstrates responsiveness. Resize the window to see changes in layout.</p>
+
+      <!-- Flexbox Cards -->
+      <div class="card-container">
+        <div class="card">
+          <h3>Card One</h3>
+          <p>Aligned with Flexbox. Responsive spacing.</p>
+          <button>Read More</button>
+        </div>
+        <div class="card">
+          <h3>Card Two</h3>
+          <p>Aligned with Flexbox. Responsive spacing.</p>
+          <button>Read More</button>
+        </div>
+        <div class="card">
+          <h3>Card Three</h3>
+          <p>Aligned with Flexbox. Responsive spacing.</p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Responsive Layout | Built with Flexbox & Grid</p>
+  </footer>
+</body>
+</html>
